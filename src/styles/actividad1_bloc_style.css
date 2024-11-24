@@ -109,22 +109,11 @@ article p {
 }
 
 /* Estilos del Botón Volver al Inicio */
-.back-to-top-button {
-    background-color: #4CAF50; /* Fondo verde para que combine con el encabezado */
-    color: white; /* Texto blanco para contraste */
-    border: none; /* Sin borde para un aspecto limpio */
-    padding: 10px 20px; /* Espaciado interno para hacer el botón más grande y fácil de hacer clic */
-    margin-top: 20px; /* Espaciado superior para separar el botón del contenido */
-    border-radius: 5px; /* Bordes redondeados para un diseño más moderno */
-    cursor: pointer; /* Cursor de mano para indicar interactividad */
-    font-family: 'Montserrat', sans-serif; /* Asegura que la fuente Montserrat se aplique en el botón */
-    font-weight: bold; /* Texto en negrita para hacer el botón más destacado */
-    transition: background-color 0.3s, transform 0.3s; /* Transiciones suaves para el color de fondo y la transformación */
-}
-
-.back-to-top-button:hover {
-    background-color: #45a049; /* Color ligeramente más oscuro al pasar el ratón por encima */
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón al pasar el ratón para dar un efecto interactivo */
+article a {
+    color: #333; /* Establece el color del texto en un gris oscuro */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-weight: bold; /* Define el texto de los enlaces en negrita */
+    transition: color 0.3s; /* Añade una transición suave al cambiar el color de los enlaces */
 }
 
 /* Pie de Página */

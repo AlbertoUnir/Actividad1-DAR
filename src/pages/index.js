@@ -7,7 +7,7 @@ const IndexPage = () => {
       {/* Define el tipo de documento como HTML5 */}
       {/* Define el idioma de la página como español */}
       <html lang="es">
-        <header>
+        <header id="inicio">
           {/* Define el conjunto de caracteres como UTF-8 */}
           <meta charSet="UTF-8" />
           {/* Vincula la fuente Montserrat desde Google Fonts */}
@@ -63,12 +63,9 @@ const IndexPage = () => {
                 Durante el trayecto, te encontrarás con vistas increíbles, como lagos de montaña y bosques densos. También es posible avistar animales salvajes, lo que añade un toque especial a la experiencia. La ruta tiene un nivel de dificultad medio-alto, así que asegúrate de tener una buena condición física y suficiente agua para el trayecto.
               </p>
               {/* Botón para volver al inicio */}
-              <button
-                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                className="back-to-top-button"
-              >
-                INICIO
-              </button>
+              <a href="#inicio">
+                Volver al inicio
+              </a>
             </article>
 
             {/* Segunda Entrada del Blog */}
@@ -92,12 +89,9 @@ const IndexPage = () => {
                 La ruta tiene algunos tramos desafiantes, como subidas largas que pondrán a prueba tus piernas, pero al llegar a la cima, las vistas y las bajadas compensan cada esfuerzo. Durante la travesía, encontrarás pequeñas cafeterías donde puedes parar a descansar y tomar un café o un bocadillo.
               </p>
               {/* Botón para volver al inicio */}
-              <button
-                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                className="back-to-top-button"
-              >
-                INICIO
-              </button>
+              <a href="#inicio">
+                Volver al inicio
+              </a>
             </article>
 
             {/* Tercera Entrada del Blog */}
@@ -121,12 +115,9 @@ const IndexPage = () => {
                 Lo mejor de las rutas urbanas es la facilidad para hacer paradas en cafeterías, museos y plazas. No necesitas una bicicleta especial, pero asegúrate de llevar un candado para poder dejarla sin preocupaciones mientras exploras los alrededores.
               </p>
               {/* Botón para volver al inicio */}
-              <button
-                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                className="back-to-top-button"
-              >
-                INICIO
-              </button>
+              <a href="#inicio">
+                Volver al inicio
+              </a>
             </article>
           </main>
 
