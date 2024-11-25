@@ -110,7 +110,7 @@ const IndexPage = () => {
               </div>
               {/* Imagen para la tercera entrada */}
               <img
-                src="images/bicicleta_ciudad_Barcelona.jpeg"
+                src="images/bicicleta_ciudad_barcelona.jpeg"
                 alt="Ruta de bicicleta urbana por una ciudad moderna"
                 className="imagen-articulo"
               />
