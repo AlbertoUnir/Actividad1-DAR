@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet"; // Importar Helmet
 import "../styles/actividad1_bloc_style.css"; // Importar el CSS proporcionado
+import { StaticImage } from "gatsby-plugin-image";
 import { withPrefix } from "gatsby";
 
 const IndexPage = () => {
@@ -9,6 +10,10 @@ const IndexPage = () => {
       {/* Define el tipo de documento como HTML5 */}
       {/* Define el idioma de la página como español */}
       <html lang="es">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
         <Helmet>
           {/* Define el conjunto de caracteres como UTF-8 */}
           <meta charSet="UTF-8" />

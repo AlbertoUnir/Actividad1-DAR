@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/static/images`, // Cambiar la ruta a `static/images` si las imágenes están allí
+        path: `${__dirname}/src/images`, // Cambiar la ruta a `src/images` si las imágenes están allí
       },
     },
     `gatsby-transformer-sharp`,
@@ -37,7 +37,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `static/images/gatsby-icon.png`, // Asegúrate de tener un ícono en esta ruta
+        icon: `src/images/gatsby-icon.png`, // Asegúrate de tener un ícono en esta ruta
       },
     },
   ],
