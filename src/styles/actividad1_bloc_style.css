@@ -28,32 +28,32 @@ header h4 {
 }
 
 /* Estilos para la Barra de Navegación */
-.barra-navegacion {
+nav {
     background-color: #333; /* Define un fondo oscuro para la barra de navegación */
     overflow: hidden; /* Evita problemas de desbordamiento con el contenido flotante */
     padding: 10px 0; /* Añade un relleno superior e inferior de 10px */
     text-align: center; /* Alinea los elementos de la barra de navegación al centro */
 }
 
-.barra-navegacion ul {
+nav ul {
     list-style-type: none; /* Elimina los puntos de la lista */
     padding: 0; /* Elimina el relleno de la lista */
     margin: 0; /* Elimina el margen de la lista */
 }
 
-.barra-navegacion li {
+nav li {
     display: inline; /* Muestra los elementos de la lista en línea horizontal */
     margin: 0 15px; /* Añade un espacio de 15px a cada lado de los elementos de la lista */
 }
 
-.barra-navegacion a {
+nav a {
     color: white; /* Define el color de los enlaces como blanco */
     text-decoration: none; /* Elimina el subrayado de los enlaces */
     font-weight: bold; /* Define el texto de los enlaces en negrita */
     transition: color 0.3s; /* Añade una transición suave al cambiar el color de los enlaces */
 }
 
-.barra-navegacion a:hover {
+nav a:hover {
     color: #4CAF50; /* Cambia el color del enlace a verde al pasar el ratón por encima */
 }
 
@@ -80,7 +80,7 @@ article h2 {
     color: #4CAF50; /* Define el color del título del artículo en verde */
 }
 
-.informacion-entrada {
+article .informacion-entrada {
     display: flex; /* Los elementos hijos estarán en una sola línea */
     justify-content: space-between; /* Distribuye los elementos: uno a la izquierda y otro a la derecha */
 }
@@ -97,7 +97,7 @@ article .fecha {
 }
 
 /* Imagen de los Artículos */
-.imagen-articulo {
+article .imagen-articulo {
     width: 100%; /* Define el ancho de la imagen para que ocupe el 100% del ancho del contenedor principal */
     height: auto; /* Mantiene la relación de aspecto original de la imagen */
     display: block; /* Asegura que la imagen se muestre como un bloque */
@@ -110,10 +110,14 @@ article p {
 
 /* Estilos del Botón Volver al Inicio */
 article a {
-    color: #333; /* Establece el color del texto en un gris oscuro */
+    color: #777; /* Establece el color del texto en un gris claro */
     text-decoration: none; /* Elimina el subrayado de los enlaces */
     font-weight: bold; /* Define el texto de los enlaces en negrita */
     transition: color 0.3s; /* Añade una transición suave al cambiar el color de los enlaces */
+}
+
+article a:hover {
+    color: #333; /* Cambia el color del enlace a gris oscuro al pasar el ratón por encima */
 }
 
 /* Pie de Página */

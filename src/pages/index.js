@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet"; // Importar Helmet
 import "../styles/actividad1_bloc_style.css"; // Importar el CSS proporcionado
 import { withPrefix } from "gatsby";
 
@@ -8,7 +9,7 @@ const IndexPage = () => {
       {/* Define el tipo de documento como HTML5 */}
       {/* Define el idioma de la página como español */}
       <html lang="es">
-        <header id="inicio">
+        <Helmet>
           {/* Define el conjunto de caracteres como UTF-8 */}
           <meta charSet="UTF-8" />
           {/* Vincula la fuente Montserrat desde Google Fonts */}
@@ -18,10 +19,10 @@ const IndexPage = () => {
           />
           {/* Vincula el archivo CSS de estilos del blog */}
           <title>Blog rutas en bicicleta</title>
-        </header>
+        </Helmet>
         <body>
           {/* Encabezado del Blog */}
-          <header>
+          <header  id="inicio">
             <h1>RUTAS EN BICICLETA</h1> {/* Título del blog */}
             <h4>Un blog donde comparto mis experiencias y opiniones</h4> {/* Subtítulo del blog */}
           </header>
@@ -52,7 +53,7 @@ const IndexPage = () => {
               </div>
               {/* Imagen para la primera entrada */}
               <img
-                src={withPrefix("/images/bicicleta_montaña_sierra_nevada.jpeg")}
+                src={withPrefix("images/bicicleta_montaña_sierra_nevada.jpeg")}
                 alt="Ciclista en una ruta de montaña en un parque nacional"
                 className="imagen-articulo"
               />
@@ -78,7 +79,7 @@ const IndexPage = () => {
               </div>
               {/* Imagen para la segunda entrada */}
               <img
-                src={withPrefix("/images/bicicleta_carretera_ruta_del_sol.jpeg")}
+                src={withPrefix("images/bicicleta_carretera_ruta_del_sol.jpeg")}
                 alt="Ruta de bicicleta de carretera a lo largo de la costa"
                 className="imagen-articulo"
               />
@@ -104,7 +105,7 @@ const IndexPage = () => {
               </div>
               {/* Imagen para la tercera entrada */}
               <img
-                src={withPrefix("/images/bicicleta_ciudad_Barcelona.jpeg")}
+                src={withPrefix("images/bicicleta_ciudad_Barcelona.jpeg")}
                 alt="Ruta de bicicleta urbana por una ciudad moderna"
                 className="imagen-articulo"
               />
