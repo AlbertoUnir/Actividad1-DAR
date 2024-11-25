@@ -53,7 +53,7 @@ const IndexPage = () => {
               </div>
               {/* Imagen para la primera entrada */}
               <img
-                src={withPrefix("images/bicicleta_montaña_sierra_nevada.jpeg")}
+                src="images/bicicleta_montaña_sierra_nevada.jpeg"
                 alt="Ciclista en una ruta de montaña en un parque nacional"
                 className="imagen-articulo"
               />
@@ -79,7 +79,7 @@ const IndexPage = () => {
               </div>
               {/* Imagen para la segunda entrada */}
               <img
-                src={withPrefix("images/bicicleta_carretera_ruta_del_sol.jpeg")}
+                src="images/bicicleta_carretera_ruta_del_sol.jpeg"
                 alt="Ruta de bicicleta de carretera a lo largo de la costa"
                 className="imagen-articulo"
               />
@@ -105,7 +105,7 @@ const IndexPage = () => {
               </div>
               {/* Imagen para la tercera entrada */}
               <img
-                src={withPrefix("images/bicicleta_ciudad_Barcelona.jpeg")}
+                src="images/bicicleta_ciudad_Barcelona.jpeg"
                 alt="Ruta de bicicleta urbana por una ciudad moderna"
                 className="imagen-articulo"
               />
